@@ -68,3 +68,7 @@ git push
 <!-- 把本地分支yangwl推送到远程 -->
 
 git push --set-upstream origin yangwl
+
+<!-- 拉取更新 -->
+
+git pull
