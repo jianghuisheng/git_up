@@ -30,6 +30,10 @@ git commit -m "xxx"
 
 .gitignore
 
+<!-- 创建并切换到新的分支yangwl -->
+
+git checkout -b yangwl
+
 <!-- 创建分支 -->
 
 git branch yangwl
@@ -58,3 +62,7 @@ git push -u origin master
 <!-- 再次使用，直接推送即可 -->
 
 git push
+
+<!-- 把本地分支yangwl推送到远程 -->
+
+git push --set-upstream origin yangwl
